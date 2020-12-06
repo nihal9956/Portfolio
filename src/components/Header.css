@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:3rem;
+ 
+  
+}
+
+.header>img{
+
+    width:70px;
+    height:70px;
+    object-fit: contain;
+    margin-left:10rem;
+    margin-top:2rem;
+}
+
+.header__navbar{
+    margin-right:5rem;
+  
+}
+
+.header__navbar>.nav_item li{
+    list-style: none;
+    display: inline-block;
+    margin:2rem;
+    font-size:1.8rem;
+    cursor: pointer;
+}
+
+.active{
+
+    color:#524BA4
+}

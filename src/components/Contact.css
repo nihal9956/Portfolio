@@ -1,0 +1,101 @@
+.contact>h1{
+    text-align:center;
+    font-size:5rem;
+    font-weight:700;
+    margin-top:20rem;
+    padding-top:3rem;
+}
+
+.contact__container{
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.contact__left>img{
+    width:400px;
+    height:400px;
+    margin-left:10rem;
+}
+.contact__right{
+    margin-right:20rem;
+    margin-top:5rem;
+}
+
+.form__container{
+    margin-left:35%;
+}
+.name__input{
+
+    display: block;
+    width:52rem;
+    padding:20px;
+    margin-bottom:2rem;
+}
+
+
+.number__input{
+    padding:20px;
+    width:20rem;
+    margin-right:2rem;
+}
+.email__input{
+    padding:20px;
+    width:25rem;
+    margin-bottom:2rem;
+    
+}
+.message__input{
+
+    display: block;
+    padding:5rem;
+    width:46rem;
+    margin-bottom:2rem;
+}
+.subject__input{
+    display: block;
+    padding:2rem;
+    width:52rem;
+    margin-bottom:2rem;
+}
+form>button{
+    padding:1rem;
+    border-radius:100rem;
+    border: none;
+    color:white;
+    font-size:1.5rem;
+    background-color:#7C32B7;
+    width:25rem;
+    cursor: pointer;
+    margin-bottom:3rem;
+    border:1px solid transparent;
+}
+
+form>button:focus{
+    outline:none;
+}
+.form__container>h1{
+    font-size:3rem;
+    
+}
+.followLinks{
+    margin:2rem 5rem;
+    display: flex;
+    align-items: center;
+    
+}
+.followLinks>h2{
+    margin-right:2rem;
+}
+.socialmedia_icons{
+    display: flex;
+    
+}
+.socialmedia_icons>a>img{
+
+    width:20px;
+    height:20px;
+    object-fit: contain;
+    margin-right:2rem;
+}

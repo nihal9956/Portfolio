@@ -1,0 +1,91 @@
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+    .contact__container{
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+.contact__left>img{
+ 
+    margin-left:5rem;
+    width:300px;
+    height:300px;
+}
+.contact__right{
+    margin-right:20rem;
+    margin-top:2rem;
+    margin-left:10rem;
+}
+.name__input{
+    width:30rem;
+    border:1px solid black;
+}
+
+
+.number__input{
+    border:1px solid black;
+    width:30rem;
+}
+.email__input{
+    width:30rem;
+    margin-bottom:2rem;
+    margin-top:2rem;
+    border:1px solid black;
+ 
+}
+.message__input{
+
+    border:1px solid black;
+    width:27rem;
+    margin-bottom:2rem;
+}
+.subject__input{
+  
+    width:32rem;
+    border:1px solid black;
+}
+
+.form__container{
+    margin-left:9rem;
+}
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+    .name__input{
+        width:30rem;
+        border:1px solid black;
+    }
+    
+    
+    .number__input{
+        border:1px solid black;
+        width:30rem;
+    }
+    .email__input{
+        width:30rem;
+        margin-bottom:2rem;
+        margin-top:2rem;
+        border:1px solid black;
+     
+    }
+    .message__input{
+    
+        border:1px solid black;
+        width:25rem;
+        margin-bottom:2rem;
+    }
+    .subject__input{
+      
+        width:31rem;
+        border:1px solid black;
+    }
+    
+
+}

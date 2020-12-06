@@ -1,0 +1,36 @@
+.about{
+
+    background-color:#f0efef;;
+    margin-top:3rem;
+   
+
+}
+
+
+.about__container{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.about>h1{
+
+    text-align:center;
+    font-size:5rem;
+    font-weight:700;
+    margin-top:20rem;
+    padding-top:5rem;
+}
+.about__left>img{
+    
+    width:400px;
+    height:400px;
+    margin-left:5rem;
+}
+
+.about__right>p{
+
+    font-size:2rem;
+    line-height:3rem;
+    max-width:40rem;
+}

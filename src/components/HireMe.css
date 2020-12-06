@@ -1,0 +1,41 @@
+.hireme{
+
+    background-color:#f0efef;
+   
+}
+.hireme_conatiner{
+    display: flex;
+    flex-direction: column;
+    margin-left:5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.hireme_conatiner>h1{
+
+    font-size:5rem;
+    font-weight:800;
+    padding-top:7rem;
+}
+.hireme_conatiner>.btn{
+
+    padding:1rem 3rem;
+    border-radius:100rem;
+    border: none;
+    color:white;
+    font-size:2rem;
+    background-color:#7C32B7;
+    cursor: pointer;
+    margin-bottom:5rem;
+}
+
+.hireme_conatiner>.btn:hover{
+
+    background-color: white;
+    color:black;
+    transition:background-color 0.2s ease-in;
+}
+
+.hireme_conatiner>.btn:focus{
+    outline:none;
+}

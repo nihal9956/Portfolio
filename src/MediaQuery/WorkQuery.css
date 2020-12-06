@@ -1,0 +1,78 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+
+
+    .work>h1{
+
+        text-align: center;
+    }
+    .work__container{
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .work__right>img{
+       
+        margin-left:5rem;
+    }
+
+    .work__img{
+        display: flex;
+        width:150vw;
+        margin-left:0.5rem;
+    }
+  
+    .work__img .box{
+        width:50px;
+        height:50px;
+    }
+
+    .work__img .box .content h1{
+        margin-bottom:1rem;
+        font-size:5px;
+        margin-left:-1.8rem;
+        transform:translateY(-20px);
+       
+       
+    }
+    .work__img .box:hover .content h1{
+
+        transform: translateY(-60px);
+
+    }
+    
+    
+.work__img .box .content button{
+
+    padding:0.3rem;
+    margin-bottom:0.5rem;
+    font-size:0.2rem;
+    text-align: center;
+    transform:translateY(-1px);
+    
+    
+}
+
+.work__img .box:hover .content button{
+
+    transform: translateY(-35px);
+    margin-left:-3rem;
+    transition: transform 0.4s;
+}
+    .work__right>img{
+        width:300px;
+        height:300px;
+        margin-left:2rem;
+    }
+
+    .work__img .box .imgbox>img{
+
+        width:50px;
+        height:50px;
+    }
+}
